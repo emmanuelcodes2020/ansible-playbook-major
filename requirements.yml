@@ -1,0 +1,14 @@
+- src: git@github.com:emmanuelcodes2020/ansible-role-webserver.git
+  name: webserver-role
+  scm: git
+  version: master
+
+- src: git@github.com:emmanuelcodes2020/ansible-role-database.git
+  name: database-role
+  scm: git
+  version: master
+
+- src: git@github.com:emmanuelcodes2020/ansible-role-major-app.git
+  name: major-app-role
+  scm: git
+  version: master
