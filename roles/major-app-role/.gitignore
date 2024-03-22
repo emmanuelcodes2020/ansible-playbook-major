@@ -19,4 +19,3 @@
 
 #Ansible
 *.retry
-ansible.log
