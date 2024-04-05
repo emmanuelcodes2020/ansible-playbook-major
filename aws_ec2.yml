@@ -2,4 +2,4 @@ plugin: aws_ec2
 region: eu-west-2
 
 groups:
-  webserver: "'major-application' in tags.Name"
+  webserver: "'personal-application' in tags.Name"
