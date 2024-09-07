@@ -28,7 +28,7 @@
       state: present
 
   - name: Ensure MariaDB root password is set
-    mysql_user:
+    community.mysql.mysql_user:
       login_user: "{{ wordpress_db_user }}"
       login_password: "{{ wordpress_db_password }}"
       name: root
